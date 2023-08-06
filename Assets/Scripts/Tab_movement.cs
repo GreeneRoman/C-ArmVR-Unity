@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Tab_movement : MonoBehaviour
 {
 
@@ -22,6 +23,11 @@ public class Tab_movement : MonoBehaviour
             MoveObject();
 
         }
+
+       // if (Input.GetKey(KeyCode.J))
+       // {
+        //    MoveObjectD();
+       // }
     }
 
 
@@ -37,4 +43,18 @@ public class Tab_movement : MonoBehaviour
         // Update the object's position
         transform.position = currentPosition;
     }
+
+
+
+   // void MoveObjectD()
+   // {
+
+     //  Vector3 currentPosition = transform.position;
+
+        //
+       // currentPosition += transform.down * mov_speed * Time.deltaTime;
+
+        
+     //   transform.position = currentPosition;
+   // }
 }
