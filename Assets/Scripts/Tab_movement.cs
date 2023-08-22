@@ -7,7 +7,7 @@ public class Tab_movement : MonoBehaviour
 {
 
     public GameObject tb;
-    public float mov_speed = 30f;
+    public float mov_speed = 0.1f;
     // Start is called before the first frame update
     void Start()
     {
