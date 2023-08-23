@@ -5,7 +5,7 @@ using UnityEngine;
 public class moveAperfect : MonoBehaviour
 {
     public float moveSpeed = 5.0f;
-    public Vector3 targetPosition = new Vector3(0, 0, 0); // The position you want to move to
+    public Vector3 targetPosition = new Vector3(2.2f, 0, 0); // The position you want to move to
 
     private bool isMoving = false;
 
